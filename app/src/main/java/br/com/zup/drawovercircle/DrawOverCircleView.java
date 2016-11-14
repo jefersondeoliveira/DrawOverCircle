@@ -58,7 +58,7 @@ public class DrawOverCircleView extends View {
         float xPos = (float) (cx + radius * Math.sin(angle));
         float yPos = (float) (cy - radius * Math.cos(angle));
 
-        canvas.drawText(String.format("%.0f", Math.toDegrees(angle)) + " Jeferson Viado", xPos, yPos, mTextPaint);
+        canvas.drawText(String.format("%.0f", Math.toDegrees(angle)) + " 20", xPos, yPos, mTextPaint);
 
         float stopX = (float) (cx + (radius - scaleMarkSize) * Math.sin(angle));
         float stopY = (float) (cy - (radius - scaleMarkSize) * Math.cos(angle));
